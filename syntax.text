@@ -1,0 +1,51 @@
+for printf() variable must match up with arugments
+\t executes a tab
+%d prints as integer
+%6d prints as integer at least 6 chars wide
+%f prints float
+%.2f print as floating point, 2 characters after decimal point
+%6.2 print as floating point, 6 chars wide + 2 decimal points
+
+
+#--------------------------------------------------------------
+Symbolic Constance
+#define line defines a symbolic name or constant to be a particular string of characters
+
+#define name replacement text
+
+Therefore, any occurence of name (not in quores and not part of another name), will
+be replaced by corresponding replacment text.
+The name has the same form as a variable name:  a sequence of letters and digitis
+that being with a letter. The replacement text can be any sequence of character, not limited to numbers
+
+#check fahrengeit2Celcius.c for example.
+Symbolic constants are written in upper case.
+There is no semicolon at the end of a #define line
+#---------------------------------------------------------
+
+Text streaming
+A text steam is a sequence of characters divided into lines; each line consists
+of zero or more characters divided into lines; each line consists of zero or
+more characters followed by a new line character \n
+
+
+Reading and writting one character at a time
+
+reading:
+c = getchar();
+
+writing:
+putchar(c);
+
+reading in and end of file indicator
+while(c = getchar() != EOF)
+or
+int c;
+c = getchar();
+while(c != EOF)
+print EOF printf("%d", EOF) = -1
+check program readWrite.c
+
+#-------------------------------------------------------------
+
+File copying
