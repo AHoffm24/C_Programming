@@ -18,6 +18,7 @@ int main()
   int number;
   number = power(num, ex);
   printf("%d\n", number);
+  return 0;
 }
 
 int power(int num, int ex)
