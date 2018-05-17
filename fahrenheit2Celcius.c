@@ -2,6 +2,8 @@
 
 /*program is from the C programing exercise is language book by brian w, kernighan*/
 //with symbolic constances
+//the following are symbolic constants not variables.
+//written in upper case so there is no semicolon at the end of a #define line 
 #define LOWER 0     //lower limit of table
 #define UPPER 300   //upper limit of table
 #define STEP 20   // step size
