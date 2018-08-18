@@ -1,4 +1,4 @@
-#include <stdio.h>
+  #include <stdio.h>
 
 /* counts digits and white spaces and others */
 
